@@ -1,0 +1,31 @@
+#body {
+    -moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	/* Required to make elements draggable in old WebKit */
+	-khtml-user-drag: element;
+	-webkit-user-drag: element;
+}
+
+#infovis {
+    background-color: #1a1a1a;
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.tip {
+    background-color: #eee;
+   text-align: left;
+   width:auto;
+   max-width:500px;
+}
+
+.tip-title {
+  font-size: 11px;
+  text-align:center;
+  margin-bottom:2px;
+}
